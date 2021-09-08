@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(246, 248, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    background-color: rgb(212, 16, 16);
+    margin: 0 auto;
+}
+h1.title{
+text-align: left!important;
+color: rgb(245, 252, 245); 
+text-transform: uppercase; 
+font-size: 40px; 
+padding: 10px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: rgb(155, 68, 68);
+    transition: ease-in-out 7s;
+}
+.Navigation {
+    background-color: rgb(22, 21, 21);
+    overflow: hidden;
+}
+.Navigation  ul li{
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    border-right: 2px solid white;
+    padding: 5px 10px;
+}
+.Navigation ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+}
+.Navigation ul li:hover{
+background-color: rgb(72, 22, 85);
+text-transform: lowercase;
+
+}
+.Navigation ul li:hover a{
+   background-color: rgb(245, 245, 236);
+   text-decoration: underline;
+   color: brown
+}
+.img-section{
+    background: url();
+}
+.img{
+   width: 30%;
+   height: 30vh;
+}
+table img{
+    height: 150px;
+    width: 150px;
+   
+}
+table img:hover{
+    opacity: .5;
+    transform: scale(2.005);
+    transition: ease-in 3s;
+}
+.credits{
+    background: brown;
+    text-align: center;
+    padding: 30px;
+    color: wheat;
+    font-size: 24px;
+
+}
+.credits:hover{
+    transform: rotate(15deg);
+    transition: ease-in-out 10ms;
+
+
+}
